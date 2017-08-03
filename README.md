@@ -1,15 +1,7 @@
 # Trees-Trees-and-more-Trees
 Programmed console application that interacts with a general tree, a max heap tree, and a binary tree data structures
 
->> Project Report is included on this text file after information about the
->> command line.
-
-*****************************************************************************
-******************* PROJECT 3 - Trees. Trees, and more Trees ****************
-*****************************************************************************
-* Name of the Program: Project 3
-
-* Purpose: This program lets users interact with three kinds of Trees that
+Purpose: This program lets users interact with three kinds of Trees that
   hold data. The first one is called, general Tree, because as its name
   indicates holds any kind of data in its leaves. Each TreeNode of the general
   tree have a linked list of its children that allocates memory dynamically,
@@ -22,9 +14,9 @@ Programmed console application that interacts with a general tree, a max heap tr
   will be kept balanced by having the low key entries in left, and the high
   ones to the right while having a mean of the nodes keys in the root.        
 
-* Authors: <<Team 22>> Mayra Lanza, Giovany Gonzalez
+Authors: <<Team 22>> Mayra Lanza, Giovany Gonzalez
 
-* Class: COP-4530-001 Data Structures 
+Class: COP-4530-001 Data Structures 
 
 INFORMATION ABOUT THE COMMAND LINE
 The command line expects an integer number to navigate through the menu and
@@ -67,17 +59,19 @@ other neeeded source code: LinkedTree.h
 			   mQueue.h
 optional code: makefile
 
-******************************************************************************
-******************* PROJECT REPORT - DESIGN INFORMATION ********************** 
-******************************************************************************
-* LINKED TREE: LinkedTree.h
+
+PROJECT REPORT - DESIGN INFORMATION 
+
+LINKED TREE: LinkedTree.h
+
  The General Tree has a pointer of the root of the tree, an integer variable
  that hold the size of the tree, and a array of pointer that holds the
  location of all input tree nodes. Moreover, the TreeNodes that are implemeted
  in the Tree hold a Linked list of the Tree nodes children.  Running times of 
- the Linked Tree functions
- are the following:
+ the Linked Tree functions are the following:
+ 
  Accessors: 
+ 
  - getRoot() function returns a pointer holding the location of the root in a
    running time of constant O(1).
  - getSize() retrieves the number of Tree nodes created in O(1).
@@ -97,7 +91,8 @@ optional code: makefile
  - insert() function has a running time of O(1).
  - del() deletes a node in a running time of O(n).
 
-* MAX HEAP TREE : MaxHeapTree.h
+MAX HEAP TREE : MaxHeapTree.h
+
  The Heap Tree consists of: a TreeNode array that holds all the data of the
  Tree, while having its maximun key value at the top of the Tree, a capacity
  that hold the number of buckets that has the array, a count variable that 
@@ -107,6 +102,7 @@ optional code: makefile
  capacity. However, when data is deleted and the capacity reach one quarter of
  the expanded array it resets to initial capacity. The function running times
  are shown below:
+ 
  - getMax() gets the Max key values in the tree in O(1) constant running time.   
  - getSize() return the number of the Tree node in the list in O(1). 
  - getHeight() retuns the height value of the Tree in O(1).
@@ -121,7 +117,8 @@ optional code: makefile
  - delMax() deletes the Max key value in the Tree in O(n) since it sorts the
    Tree after deletion.
 
-* AVL TREE : AvlTree.h
+AVL TREE : AvlTree.h
+
   The AVL Tree is a binary Tree that keeps balance its subtrees by carefully
   rotating if unbalanced height occurs. The AVL Tree keeps its inputs leaves
   balanced by keeping the height of every node with a difference of at most 
