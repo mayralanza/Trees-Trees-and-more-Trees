@@ -23,15 +23,7 @@ The command line expects an integer number to navigate through the menu and
 submenus. Other inputs will make the program crash and abortion will be 
 needed. An example of how the command Line looks:
 
-     
-**** Project 3 - Trees, Trees, and more Trees ***
-******************* Main Menu *******************
-Enter command number to get into desired submenu 
-1: General Tree
-2: Max Heap Tree
-3: AVL Tree
-4: Quit 
->>
+![projectimage](https://user-images.githubusercontent.com/21368903/28914323-40e2d092-7809-11e7-8257-609a8a87149a.png)
 
 Both the main menu and the submenus have the command number besides the
 desired action. Ex.
@@ -62,7 +54,9 @@ optional code: makefile
 
 PROJECT REPORT - DESIGN INFORMATION 
 
-LINKED TREE: LinkedTree.h
+GENERAL TREE: LinkedTree.h
+
+![projectimg](https://user-images.githubusercontent.com/21368903/28914378-6abc50fa-7809-11e7-8cdf-7af5e3f6111e.png)
 
  The General Tree has a pointer of the root of the tree, an integer variable
  that hold the size of the tree, and a array of pointer that holds the
