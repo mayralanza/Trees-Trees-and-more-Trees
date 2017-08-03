@@ -2,7 +2,6 @@
 * Project 3 - Trees. Trees, and more Trees  *
 * Team 22: Mayra Lanza                      *
 *          Giovany Gonzalez                 *
-*          Andrew Walton                    *
 *********************************************/
 #include "TreeNodeG.h"
 #include "SlinkedList.h"
