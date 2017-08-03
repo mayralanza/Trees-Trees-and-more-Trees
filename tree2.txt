@@ -1,0 +1,14 @@
+18 Darth
+12 Luke
+25 Solo
+4 Han
+15 Leia
+12 Steve
+30 Rogers
+1 Bruce
+5 Wayne
+17 Clark
+28 Pied
+3 Piper
+14 Skywalker
+17 Vader
