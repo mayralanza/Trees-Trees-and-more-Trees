@@ -56,13 +56,14 @@ PROJECT REPORT - DESIGN INFORMATION
 
 GENERAL TREE: LinkedTree.h
 
-![projectimg](https://user-images.githubusercontent.com/21368903/28914378-6abc50fa-7809-11e7-8cdf-7af5e3f6111e.png)
-
  The General Tree has a pointer of the root of the tree, an integer variable
  that hold the size of the tree, and a array of pointer that holds the
  location of all input tree nodes. Moreover, the TreeNodes that are implemeted
- in the Tree hold a Linked list of the Tree nodes children.  Running times of 
- the Linked Tree functions are the following:
+ in the Tree hold a Linked list of the Tree nodes children.  
+ 
+ ![projectimg](https://user-images.githubusercontent.com/21368903/28914378-6abc50fa-7809-11e7-8cdf-7af5e3f6111e.png)
+ 
+ Running times of the Linked Tree functions are the following:
  
  Accessors: 
  
@@ -94,8 +95,12 @@ MAX HEAP TREE : MaxHeapTree.h
  implementation does not use the 0 position, which help in the resizing of the
  array. In detail, it expands when the array is full, which doubles its
  capacity. However, when data is deleted and the capacity reach one quarter of
- the expanded array it resets to initial capacity. The function running times
- are shown below:
+ the expanded array it resets to initial capacity. 
+ 
+ ![imageroject](https://user-images.githubusercontent.com/21368903/28914650-7f7da588-780a-11e7-8d6a-f11e8cc0e75e.png)
+  
+ The function running times are shown below:
+
  
  - getMax() gets the Max key values in the tree in O(1) constant running time.   
  - getSize() return the number of the Tree node in the list in O(1). 
@@ -120,7 +125,12 @@ AVL TREE : AvlTree.h
   the location of the root TreeNode, and a size integer count the number of
   tree node the Tree holds. Meanwhile, the TreeNode, of the AVL Tree, Not only
   holds the data and its parent pointer but also has a left and a right
-  children. The running times of AVL Tree are as follow:
+  children. 
+  
+  ![avltree](https://user-images.githubusercontent.com/21368903/28914700-ad206322-780a-11e7-82a4-685fff8bba8f.png)
+  
+  The running times of AVL Tree are as follow:
+  
  - getRoot() function retrieves the pointer of the root in O(1) time.
  - getSize() get the size of the Tree in O(1) running time. 
  - isEmpty() boolean function returns true if empty and false otherwise in
