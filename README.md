@@ -1,5 +1,5 @@
 # Trees-Trees-and-more-Trees
-Programmed console application that interacts with a general tree, a max heap tree, and a binary tree data structures
+Console application that interacts with a general tree, a max heap tree, and a binary tree data structures
 
 Purpose: This program lets users interact with three kinds of Trees that
   hold data. The first one is called, general Tree, because as its name
@@ -12,7 +12,9 @@ Purpose: This program lets users interact with three kinds of Trees that
   can only delete the root in the Tree. Last but not least, the AVL Tree is a
   a binary and balanced tree (BST) meaning as the user inputs data the Tree
   will be kept balanced by having the low key entries in left, and the high
-  ones to the right while having a mean of the nodes keys in the root.        
+  ones to the right while having a mean of the nodes keys in the root.     
+  
+  ["Click here to see UMLs"](https://github.com/mayralanza/Trees-Trees-and-more-Trees/blob/master/UMLs.pdf)
 
 Authors: <<Team 22>> Mayra Lanza, Giovany Gonzalez
 
